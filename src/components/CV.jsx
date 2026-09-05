@@ -1,7 +1,16 @@
+import './CV.css'
+import LeftColumn from './LeftColumn'
+import RightColumn from './RightColumn'
+
 export default function CV() {
     return (
         <>
-            <h1>Testing</h1>
+            <div className="cv">
+                
+                <LeftColumn />
+
+                <RightColumn />
+            </div>
         </>
     )
 }
